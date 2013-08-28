@@ -8,7 +8,7 @@ Geometries are retrieved in the WKT format and the requested SRS (default is EPS
 
 Configuration example
 ---------------------
-It is assumed that you have a working DIH configuration in your Solr instance and a spatial field in your schema (using JTS).
+It is assumed that you have a working DIH configuration in your Solr instance and a spatial field in your schema (using [JTS](http://wiki.apache.org/solr/SolrAdaptersForLuceneSpatial4)).
 In the file data-config.xml add a DataSource (i.e. a connection to a WFS service using its Capabilities URL):
 
 ```xml
