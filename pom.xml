@@ -7,8 +7,30 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>solr-dataimporthandler-wfs</name>
-	<url>http://maven.apache.org</url>
+	<name>Solr DataImportHandler for WFS services</name>
+	<url>https://github.com/Geodan/solr-dataimporthandler-wfs</url>
+
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.spdx.org/licenses/Apache-2.0</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>janb</id>
+			<name>Jan Boonen</name>
+			<organization>Geodan</organization>
+			<organizationUrl>http://www.geodan.nl</organizationUrl>
+			<email>jan.boonen@geodan.nl</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:Geodan/solr-dataimporthandler-wfs.git</developerConnection>
+		<connection>scm:git:https://github.com/Geodan/solr-dataimporthandler-wfs.git</connection>
+	</scm>
 
 	<properties>
 		<solr.version>4.3.0</solr.version>
